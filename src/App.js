@@ -1,13 +1,14 @@
-import { Button } from 'bootstrap';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Component1 from './Components/Component1';
+import { Link } from 'react-router-dom';
 // Put any other imports below so that CSS from your
 // components takes precedence over default styles.
 
 function App() {
   return (
     <div className="App">
+      
       <div id="headerimage">
         <img src="logo192.png" alt="Company Logo" />
       </div>

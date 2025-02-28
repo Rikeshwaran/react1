@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 function Addfunction() {
   var x = document.getElementById("button");
   x.addEventListener("click", function() {
-    alert("Hello World!");
+    alert("Submit success");
   });
 }
 

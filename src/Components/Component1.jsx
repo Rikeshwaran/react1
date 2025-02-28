@@ -1,6 +1,8 @@
 import React from 'react'
 import './Component1.css'   
 
+import 'bootstrap/dist/css/bootstrap.css';
+
 function Addfunction() {
   var x = document.getElementById("button");
   x.addEventListener("click", function() {
@@ -12,14 +14,7 @@ function Component1() {
   return (
     <div>
       <div>
-        <img src="logo192.png" alt="" />
-      </div>
-      <div>
-        <ul>
-          <li>home</li>
-        </ul>
-        <p>1</p>
-        <button onClick={Addfunction} id="button">sumbit now</button>
+        <button onClick={Addfunction} id="button" className="">sumbit now</button>
       </div>
     </div>
   )
